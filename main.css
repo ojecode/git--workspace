@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+}
+progress[value] {
+    -webkit-appearance: none;
+    width: 250px;
+    height: 30px;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/*Navigation Bar*/
+header{
+    background: #9f9f9f;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    padding: 0px;
+    border: #000 solid 3px;
+}
+header ul{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+header ul li{
+    float: left;
+    margin: 0 10px;
+    padding: 10px;
+    top: 0px;
+    border: #000 solid 1px;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(0, 185, 185);
+}
+header ul li a:hover{
+    color: rgb(0, 145, 145);
+}
+
+/*skills */
+.skills{
+    border: #000 solid 5px;
+    margin: 10px 50px;
+    padding: 30px;
+}
+.skills h1{
+    text-align: center;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skill{
+    border: #000 solid 1px;
+    margin: 15px;
+    padding: 20px 55px;
+}
+.skill h2{
+    text-align: center;
+}
+
+/*#contact-input*/
+.contact {
+    border: #000 solid 5px;
+    margin: 10px 150px;
+    text-align: center;
+    padding: 50px;
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contact-details .detail {
+    border: #000 solid 1px;
+    margin: 20px;
+}
+.contact-input{
+
+}
+input {
+    width: 200px;
+    height: 23px;
+    margin: 8px;
+}
+textarea{
+    outline: none;
+    resize: none;
+    width: 70%;
+    height: 200px;
+    margin-top: 10px;
+}
+button{
+    float: right;
+    margin-right: 137px;
+    height: 40px;
+    background: rgb(0, 185, 185);
+    outline: none;
+}
